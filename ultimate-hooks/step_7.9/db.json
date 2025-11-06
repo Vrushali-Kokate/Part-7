@@ -1,0 +1,37 @@
+{
+  "notes": [
+    {
+      "content": "HTML is easy",
+      "id": "1"
+    },
+    {
+      "content": "Browser can execute only JavaScript",
+      "id": "2"
+    },
+    {
+      "id": "ab26",
+      "content": "hello"
+    },
+    {
+      "id": "7fea",
+      "content": "Graphic Design"
+    }
+  ],
+  "persons": [
+    {
+      "name": "Arto Hellas",
+      "number": "040-123456",
+      "id": "1"
+    },
+    {
+      "id": "3385",
+      "name": "Vrushali",
+      "number": "777777777"
+    },
+    {
+      "id": "7a61",
+      "name": "Vrushali Kokate",
+      "number": "7773958146"
+    }
+  ]
+}
