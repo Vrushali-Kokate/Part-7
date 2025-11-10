@@ -1,0 +1,147 @@
+/* Body & Container */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #FDF6F0;
+  margin: 0;
+  padding: 20px;
+  color: #2C3E50;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+}
+
+/* Links */
+a {
+  color: #E67E22;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Buttons */
+button {
+  margin-top: 10px;
+  padding: 8px 14px;
+  border: none;
+  background-color: #E67E22;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.2s all;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #D35400;
+}
+
+/* Blog List */
+.blog-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.blog-card {
+  border: 1px solid #E8D7C3;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #FFFFFF;
+  transition: 0.2s all;
+}
+
+.blog-card:hover {
+  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+}
+
+.blog-title {
+  font-weight: 600;
+  font-size: 18px;
+  text-decoration: none;
+  color: #2C3E50;
+}
+
+.blog-title:hover {
+  color: #E67E22;
+}
+
+/* Blog View Card */
+.blog-view-card {
+  border: 1px solid #E8D7C3;
+  padding: 22px;
+  border-radius: 12px;
+  max-width: 650px;
+  margin: 30px auto;
+  background-color: #fff;
+  box-shadow: 0 3px 12px rgba(0,0,0,0.08);
+}
+
+.blog-view-card h2 {
+  margin-bottom: 12px;
+  color: #2C3E50;
+}
+
+/* Delete Button */
+.delete-btn {
+  background-color: #C0392B;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.delete-btn:hover {
+  opacity: 0.85;
+}
+
+/* Navigation */
+.app-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #E67E22;
+  color: white;
+  padding: 12px 25px;
+  border-radius: 6px;
+  margin-bottom: 25px;
+}
+
+.app-nav h2 {
+  margin: 0;
+  font-size: 22px;
+}
+
+.app-nav nav a {
+  color: white;
+  text-decoration: none;
+  margin-right: 18px;
+  font-weight: 500;
+}
+
+.app-nav nav a:hover {
+  text-decoration: underline;
+}
+
+.app-nav button {
+  margin-left: 12px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.app-nav button:hover {
+  opacity: 0.85;
+}
+
+/* Secondary Text */
+p {
+  color: #7F8C8D;
+}
